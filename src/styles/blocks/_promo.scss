@@ -1,0 +1,23 @@
+.promo{
+  background: url("../images/promo.jpg") no-repeat center right #ECE7E4;
+  &__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 720px;
+    max-width: 550px;
+  }
+
+  &__company{
+    //font-size: 14px;
+    //line-height: 20px;
+    //letter-spacing: 2px;
+    //text-transform: uppercase;
+    //color: $second-color;
+    margin-bottom: 20px;
+  }
+
+  &__link{
+    margin-top: 40px;
+  }
+}
