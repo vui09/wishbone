@@ -1,0 +1,26 @@
+body {
+    background: url(assets/fcefcda125f288ce4d80.jpg) no-repeat;
+    font-family: generalFont
+}
+
+h1 {
+    color: red;
+    font-family: generalFont
+}
+
+.container__subtitle {
+    color: green;
+    display: block;
+    height: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@font-face {
+    font-family: generalFont;
+    src: url(assets/a8979f5fddba897421a7.ttf) format("truetype")
+}
