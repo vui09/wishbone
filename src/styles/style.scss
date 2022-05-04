@@ -24,6 +24,12 @@ h1{
   font-weight: 400;
 }
 
+h2{
+  font-size: 39px;
+  line-height: 42px;
+  font-weight: 400;
+}
+
 p{
   margin: 10px 0;
 }
@@ -48,3 +54,5 @@ a{
 @import 'blocks/promo';
 @import 'blocks/about';
 @import 'blocks/banner';
+@import 'blocks/process';
+@import 'blocks/contact';

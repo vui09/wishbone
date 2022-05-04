@@ -1,5 +1,25 @@
 .banner{
+  background: url("../images/banner.jpg") #E6E6E8 no-repeat;
+
+  .container{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 460px;
+    max-width: 285px;
+
+  }
+}
+
+.banner__second{
   background: url("../images/banner2.jpg") no-repeat;
-  background-size: cover;
-  min-height: 600px;
+
+  &__text{
+    min-height: 600px;
+  }
 }
